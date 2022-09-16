@@ -20,6 +20,6 @@ echo "== pushing"
 
 REMOTES=$(git remote)
 
-for REMOTE in REMOTES; do
+for REMOTE in ${REMOTES}; do
     git push "${REMOTE}" "refs/heads/${BRANCH}:refs/heads/${BRANCH}" || :
 done
