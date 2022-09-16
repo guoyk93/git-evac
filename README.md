@@ -15,6 +15,14 @@ So I created `git-evac`.
 
 ## Installation
 
+**Automatically**
+
+```shell
+curl -sSL https://raw.githubusercontent.com/guoyk93/git-evac/main/install.sh | sudo bash -s
+```
+
+**Manual**
+
 Get the script `git-evac.sh` and install it to `PATH` directory, `/usr/local/bin` for example
 
 ```shell

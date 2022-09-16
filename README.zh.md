@@ -19,6 +19,14 @@
 
 ## 安装
 
+**自动安装**
+
+```shell
+curl -sSL https://raw.githubusercontent.com/guoyk93/git-evac/main/install.sh | sudo bash -s
+```
+
+**手动安装**
+
 获取脚本 `git-evac.sh` 并将其安装在 `PATH` 目录中, 比如 `/usr/local/bin`
 
 ```shell
