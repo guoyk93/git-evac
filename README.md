@@ -13,6 +13,12 @@ Real programmers won't allow this kind of imprecise approach.
 
 So I created `git-evac`.
 
+## Requirements
+
+* `git` command
+* `date` command for generating branch name
+* `openssl` command for generating branch name
+
 ## Installation
 
 **Automatically**

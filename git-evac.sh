@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -eux
+set -eu
 
 echo "== adding files"
 
@@ -8,7 +8,7 @@ git add -A
 
 echo "== committing"
 
-git commit -am "emergency commit created by git-evac"
+git commit --no-edit --allow-empty -am "emergency commit created by git-evac"
 
 BRANCH="evac-$(date '+%Y%m%d%H%M%S')-$(openssl rand -hex 8)"
 
