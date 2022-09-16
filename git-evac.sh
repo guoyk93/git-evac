@@ -2,6 +2,8 @@
 
 set -eu
 
+BRANCH="evac-$(date '+%Y%m%d%H%M%S')-$(openssl rand -hex 8)"
+
 echo "== adding files"
 
 git add -A
@@ -9,8 +11,6 @@ git add -A
 echo "== committing"
 
 git commit --no-edit --allow-empty -am "emergency commit created by git-evac"
-
-BRANCH="evac-$(date '+%Y%m%d%H%M%S')-$(openssl rand -hex 8)"
 
 echo "== creating branch ${BRANCH}"
 
