@@ -13,33 +13,15 @@ Real programmers won't allow this kind of imprecise approach.
 
 So I created `git-evac`.
 
-## Highlights
-
-Pure Go implementation, zero runtime dependency.
-
-You can save your code even when somehow your `git` command magically disappeared.
-
 ## Installation
 
-You can either build binary from source, or just download pre-built binary.
-
-* Build from source
-
-    ```shell
-   git clone https://github.com/guoyk93/git-evac.git
-   cd git-evac
-   go build -o git-evac
-    ```
-
-* Download pre-built binaries
-
-  View https://github.com/guoyk93/git-evac/releases and choose the correct distribution.
-
-Either way requires you to place the executable in the PATH directory
+Get the script `git-evac.sh` and install it to `PATH` directory, `/usr/local/bin` for example
 
 ```shell
-chmod +x git-evac
-sudo mv -f git-evac /usr/local/bin/git-evac
+git clone https://github.com/guoyk93/git-evac.git
+cd git-evac
+chmod +x git-evac.sh
+sudo cp -f git-evac.sh /usr/local/bin/git-evac
 ```
 
 ## Usage

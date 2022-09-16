@@ -19,27 +19,14 @@
 
 ## 安装
 
-你可以从源代码安装，也可以下载预先编译好的二进制命令。
-
-* 从源代码安装
-
-  ```shell
-  git clone https://github.com/guoyk93/git-evac.git
-  cd git-evac
-  go build -o git-evac
-  ```
-
-* 下载预先编译好的二进制命令
-
-  访问 https://github.com/guoyk93/git-evac/releases 选择正确的操作系统和系统构架
-
-任何一种方法都需要你将可执行程序放置在 PATH 目录下。
+获取脚本 `git-evac.sh` 并将其安装在 `PATH` 目录中, 比如 `/usr/local/bin`
 
 ```shell
-chmod +x git-evac
-sudo mv -f git-evac /usr/local/bin/git-evac
+git clone https://github.com/guoyk93/git-evac.git
+cd git-evac
+chmod +x git-evac.sh
+sudo cp -f git-evac.sh /usr/local/bin/git-evac
 ```
-
 ## 使用
 
 一旦起火，你只需要输入 `git evac` 或者 `git-evac` 然后快速离开建筑物。
