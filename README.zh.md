@@ -35,6 +35,7 @@ cd git-evac
 chmod +x git-evac.sh
 sudo cp -f git-evac.sh /usr/local/bin/git-evac
 ```
+
 ## 使用
 
 一旦起火，你只需要输入 `git evac` 或者 `git-evac` 然后快速离开建筑物。
@@ -48,7 +49,7 @@ sudo cp -f git-evac.sh /usr/local/bin/git-evac
 
 ## 赞助
 
-![oss-donation-wx](https://www.guoyk.net/oss-donation-wx.png)
+访问 <https://guoyk93.github.io/#donation>
 
 ## 许可证
 

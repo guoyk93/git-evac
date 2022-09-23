@@ -51,7 +51,7 @@ It will help you:
 
 ## Donation
 
-Send `ETH` to `0xCcf1eB465a1DAcAF10B2350D687A558c68F8a41e`
+See <https://guoyk93.github.io/#donation>
 
 ## Credits
 
