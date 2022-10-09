@@ -49,7 +49,7 @@ sudo cp -f git-evac.sh /usr/local/bin/git-evac
 
 ## 赞助
 
-访问 <https://guoyk93.github.io/#donation>
+访问 <https://guoyk.xyz/donation>
 
 ## 许可证
 

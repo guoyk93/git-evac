@@ -51,7 +51,7 @@ It will help you:
 
 ## Donation
 
-See <https://guoyk93.github.io/#donation>
+See <https://guoyk.xyz/donation>
 
 ## Credits
 
